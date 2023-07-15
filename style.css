@@ -1,0 +1,444 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    
+    background-color: #678FF2;
+    background-size: cover;
+}
+
+header{
+    background: rgba(255, 255, 255, 0.10);
+    border-bottom: 1px solid #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a{
+    color: #FFF;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    width: 650px;
+    align-items: center;
+    height: 64px;
+}
+
+header nav a{
+    font-size: 22px;
+    margin-left: 50px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    border-right: 1px solid #FFF;
+    width: 250px;
+    height: 64px;
+}
+
+.logo span{
+    font-weight: bold;
+    margin-left: 0.3em;
+}
+
+header div{
+    display: flex;
+    align-items: center;
+}
+
+header div a{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.earth{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+.c-19{
+    display: flex;
+    align-items: center;
+    border-left: 1px solid #FFF;
+    border-right: 1px solid #FFF;
+    height: 64px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.section-1{
+    background: url(img/image\ 16.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 200px;
+    border-bottom: 1px solid #FFF;
+}
+.intro{
+    font-size: 80px;
+    font-weight: 700;
+    width: 1300px;
+    margin-top: 150px;
+    text-align: center;
+}
+.intro span{
+    font-size: 25px;
+    background-color: black;
+    color: #FFF;
+    padding: 50px;
+    position: relative;
+    bottom: 40px;
+    border-radius: 70px;
+}
+.cookies{
+    display: flex;
+    align-items: center;
+    margin-top: 175px;
+    margin-right: 80px;
+}
+.we-use-cookies{
+    width: 500px;
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(20px);
+    padding: 10px;
+    height: 90px;
+    padding-left: 80px;
+}
+.accept-cookies{
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(20px);
+    height: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 0px 20px 20px 0px;
+    border-left: 1px solid #FFF;
+    transition: .5s;
+}
+.cookies img{
+    position: relative;
+    left: 85px;
+    z-index: 1;
+    bottom: 20px;
+}
+.H-w-W{
+    color: #FFF;
+    font-size: 60px;
+}
+.production-cycle{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 100%;
+    height: 600px;
+    justify-items: center;
+    align-items: center;
+}
+
+.production-cycle div{
+    background-color: #FFF;
+    width: 180px;
+    height: 200px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px 20px 10px;
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(20px);
+}
+.lighter{
+    position: relative;
+    bottom: 12px;
+}
+.production-cycle div h3{
+    margin-top: 10px;
+    font-size: 18px;
+}
+.production-cycle div p{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+}
+.section-2{
+    background-color: #678FF2;
+}
+.advantages{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    margin-top: 150px;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+.advantages h1{
+   color: #FFF; 
+   font-size: 45px;
+}
+.advantages p{
+    font-size: 22px;
+    color: #FFF;
+}
+.advantages img{
+    width: 50%;
+}
+.text{
+    width: 50%;
+}
+.text-1{
+    margin-top: 80px;
+}
+.phone{
+    position: relative;
+    right: 20px;
+    bottom: 300px;
+}
+.phone-block{
+    display: flex;
+    align-items: flex-end;
+}
+.phone-text{
+    position: relative;
+    bottom: 550px;
+    
+}
+.kaktus{
+    position: relative;
+    bottom: 300px;
+    border-bottom: 1px solid #FFF;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form h1{
+    font-size: 40px;
+    width: 700px;
+}
+form input{
+    width: 700px;
+    margin-top: 25px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.50);
+    padding: 25px;
+}
+#submit-button{
+    background-color: black;
+    color: #FFF;
+    font-size: 25px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+input::placeholder{
+    font-size: 25px;
+}
+.hidden{
+    position: absolute;
+    top: 64px;
+    right: -20px;
+    display: none;
+}
+.hidden li{
+    list-style-type: none;
+}
+.link{
+    width: 200px;
+    border: 1px solid;
+    display: block;
+    list-style-type: none;
+    background-color: #678FF2;
+}
+.toast{
+    width: 50px;
+    height: 64px;
+    border-left: 1px solid #FFF;
+    display: none;
+}
+.toast div{
+    height: 2px;
+    width: 70%;
+    background-color: #FFF;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.accept-cookies:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.bird{
+    animation: fly .8s linear;
+    animation-fill-mode: forwards;
+}
+.intro{
+    width: 100%;
+}
+
+
+@keyframes fly {
+    from{
+        transform: translateX(-200px);
+        opacity: 1;
+        display: block;
+    }
+    to{
+        transform: translateX(500px);
+         opacity: 0;
+         display: none;
+    }
+}
+@media screen and (max-width: 1040px) {
+    .hide{
+        display: none;
+    }
+    .intro h1{
+        font-size: 5vw;
+    }
+    .intro{
+        width: 90%;
+        display: flex;
+        justify-content: center;                             
+    }
+    .intro span{
+        font-size: 6vw;
+        padding: 10px;
+        position: static;
+        display: block;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .section-2 img{
+        width: 90%;
+        position: static;
+    }
+    .phone{
+        position: relative;
+        margin-top: 20px;
+    }
+    .phone-text{
+        position: static;
+    }
+    .advantages{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .kaktus{
+        margin-top: 500px;
+    }
+    .phone-block{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .phone-text{
+        position: relative;
+        top: 70px;
+    }
+    .text{
+        width: 90%;
+    }
+    .cookies{
+        width: 100%;
+        font-size: 2vw;
+    }
+    .accept-cookies{
+        font-size: 3vw;
+    }
+    .we-use-cookies{
+        display: flex;
+        align-items: center;
+        height: 8rem;
+    }
+    .cookies img{
+        left: 75px;
+    }
+    .accept-cookies{
+        height: 8rem;
+    }
+    .production-cycle{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 20px;
+    }
+    form input{
+        width: 90vw;
+    }
+    .form-intro{
+        font-size: 5vw;
+        text-align: center;
+    }
+    .H-w-W{
+        font-size: 7vw;
+    }
+    .toast{
+        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: .5s;
+    }
+    .toast:hover > ul{
+        display: block;
+    }
+    .form-intro{
+        width: 90%;
+    }
+
+    body{
+        width: 100vw;
+    }
+
+    .section-2{
+        width: 100%;
+    }
+    
+    .logo{
+        border: none;
+    }
+    
+    .hidden a{
+        transition: .5s;
+    }
+    .hidden a:hover{
+        background-color: #728ece
+    }
+    @keyframes fly {
+        from{
+            transform: translateX(0px);
+            opacity: 1;
+            display: block;
+        }
+        to{
+            transform: translateX(500px);
+             opacity: 0;
+             display: none;
+        }
+    }
+}
+
+
